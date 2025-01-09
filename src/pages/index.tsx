@@ -53,7 +53,7 @@ export default function Home() {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
                             >
-                                Dedicated mobile app developer with 4+ years of experience in designing, developing, and maintaining high-quality native and cross-platform mobile applications. Proven ability to align technical skills with company goals to create robust and scalable products. Seeking to apply my expertise in mobile app development to contribute to innovative projects and drive the company&apos;s success in the mobile space.
+                                Dedicated mobile app developer with 4+ years of experience in designing, developing, and maintaining high-quality native and cross-platform mobile applications. Proven ability to align technical skills with company goals to create robust and scalable products. Seeking to apply my expertise in mobile app development to contribute to innovative projects and drive the company's success in the mobile space.
                             </motion.p>
                         </div>
                     </div>

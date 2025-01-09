@@ -29,8 +29,6 @@ export interface Certification {
 }
 
 export interface Contact {
-  email: string;
-  phone: string;
   location: string;
   linkedin: string;
 }
@@ -47,14 +45,15 @@ export const content: Content = {
   skills: [
     { name: "iOS Development" },
     { name: "Swift" },
+    { name: "Objective-C" },
     { name: "UIKit" },
     { name: "SwiftUI" },
     { name: "Combine" },
-    { name: "CI/CD" },
-    { name: "Bazel" },
+    { name: "Ruby" },
     { name: "Flutter" },
     { name: "Dart" },
-    { name: "Firebase" }
+    { name: "Firebase" },
+    { name: "Gitlab" }
   ],
   experience: [
     {
@@ -62,28 +61,28 @@ export const content: Content = {
       role: "Software Engineer, iOS",
       period: "11/2024 - Present",
       location: "Bangalore, India",
-      description: "Dedicated mobile app developer with 4+ years of experience in designing, developing, and maintaining high-quality native and cross-platform mobile applications. Proven ability to align technical skills with company goals to create robust and scalable products. Seeking to apply my expertise in mobile app development to contribute to innovative projects and drive the company&apos;s success in the mobile space.",
+      description: "Dedicated mobile app developer with 4+ years of experience in designing, developing, and maintaining high-quality native and cross-platform mobile applications. Proven ability to align technical skills with company goals to create robust and scalable products. Seeking to apply my expertise in mobile app development to contribute to innovative projects and drive the company's success in the mobile space.",
       achievements: [
-        "Developed Grab&apos;s design system library to help standardize the UI for the app by using reusable components",
-        "Contributed to the architecture revamp of the entire codebase to support migration from UI/UX to SwiftUI",
-        "Monitored CI/CD job launch time, app size and other metrics and ensured the app and the platform stability by fixing the issues"
+        "Developed Grab's design system library to help standardize the UI for the app by using reusable components.",
+        "Increased adoption of UI library in all the apps by building modular components and ensuring the reusability of the components.",
+        "Monitored CI/CD job launch time, app size and other metrics and ensured the app and the platform stability by fixing the issues."
       ],
-      technologies: ["iOS", "Swift", "UIKit", "SwiftUI", "CI/CD"]
+      technologies: ["iOS", "Swift", "UIKit", "SwiftUI", "Ruby", "Gitlab"]
     },
     {
       company: "Rakuten India",
       role: "Software Engineer",
-      period: "08/2020 - 11/2024",
+      period: "08/2020 - 11/2024, 4 years 4 months",
       location: "Bangalore, India",
       description: "Developed and maintained key features in RakutenPay iOS application, focusing on payment experience and app performance.",
       achievements: [
-        "Developed key features in RakutenPay iOS application such as Barcode, QR Code, Advertisement for seamless payment experience for users using technologies like UI/UX and Swift",
-        "Ensured backward compatibility and rollback support by proposing and developing the use of Feature Flags in the project",
-        "Ensured Code quality by using tools like code and unit tests",
-        "Improved user experience by adding Shimmering for the entire app components",
-        "Setup CI/CD for Android and iOS apps using Bitrise",
-        "Setup unit testing guidelines and added unit tests for major components of the project",
-        "Developed an incubation iOS app using Flutter and ensured its release to public"
+        "Developed key features in RakutenPay iOS application such as Barcode, QR Code, Advertisement for seamless payment experience for users using technologies like UI/UX and Swift.",
+        "Ensured backward compatibility and rollback support by proposing and developing the use of Feature Flags in the project.",
+        "Ensured Code quality by using tools like code and unit tests.",
+        "Improved user experience by adding Shimmering for the entire app components.",
+        "Setup CI/CD for Android and iOS apps using Bitrise.",
+        "Setup unit testing guidelines and added unit tests for major components of the project.",
+        "Developed an incubation iOS app using Flutter and ensured its release to public."
       ],
       technologies: ["iOS", "Swift", "UIKit", "SwiftUI", "Flutter", "CI/CD", "Unit Testing"]
     }
@@ -117,8 +116,6 @@ export const content: Content = {
     }
   ],
   contact: {
-    email: "karthikk9828@gmail.com",
-    phone: "+91 9066368789",
     location: "Bangalore, India",
     linkedin: "linkedin.com/in/karthikk9828"
   }
