@@ -62,9 +62,9 @@ export const content: Content = {
       role: "Software Engineer, iOS",
       period: "11/2024 - Present",
       location: "Bangalore, India",
-      description: "Dedicated mobile app developer with 4+ years of experience in designing, developing, and maintaining high-quality native and cross-platform mobile applications. Proven ability to align technical skills with company goals to create robust and scalable products. Seeking to apply my expertise in mobile app development to contribute to innovative projects and drive the company's success in the mobile space.",
+      description: "Dedicated mobile app developer with 4+ years of experience in designing, developing, and maintaining high-quality native and cross-platform mobile applications. Proven ability to align technical skills with company goals to create robust and scalable products. Seeking to apply my expertise in mobile app development to contribute to innovative projects and drive the company&apos;s success in the mobile space.",
       achievements: [
-        "Developed Grab's design system library to help standardize the UI for the app by using reusable components",
+        "Developed Grab&apos;s design system library to help standardize the UI for the app by using reusable components",
         "Contributed to the architecture revamp of the entire codebase to support migration from UI/UX to SwiftUI",
         "Monitored CI/CD job launch time, app size and other metrics and ensured the app and the platform stability by fixing the issues"
       ],
