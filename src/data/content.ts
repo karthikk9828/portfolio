@@ -89,10 +89,11 @@ export const content: Content = {
   ],
   projects: [
     {
-      title: "Movie App",
+      title: "Netflix Clone",
       period: "10/2023 - 12/2023",
       description: "iOS app that can help browse trending movies and TV shows, built using iOS, Swift, SwiftUI, Combine, Clean and MVVM.",
-      technologies: ["iOS", "Swift", "SwiftUI", "Combine", "MVVM"]
+      technologies: ["iOS", "Swift", "UIKit", "MVVM"],
+      appStoreLink: "https://github.com/karthikk9828/Netflix-Clone-iOS-UIKit"
     }
   ],
   certifications: [
@@ -105,7 +106,7 @@ export const content: Content = {
     {
       name: "Flutter and Dart to build iOS and Android apps",
       issuer: "Udemy",
-      date: "04/2020",
+      date: "04/2020 - Present",
       description: "Learned Flutter mobile application using Google Maps, Authentication, native features, image upload, Firebase realtime database. View Certificate"
     },
     {

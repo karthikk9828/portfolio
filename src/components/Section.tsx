@@ -8,10 +8,10 @@ interface SectionProps {
 
 const Section = ({ id, title, children }: SectionProps) => {
     return (
-        <section id={id} className="py-12">
+        <section id={id} className="py-8">
             <div className="max-w-[980px] mx-auto px-4 sm:px-6">
                 <motion.h2
-                    className="text-4xl font-semibold mb-6 text-center"
+                    className="text-4xl font-semibold mb-4 text-center"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}

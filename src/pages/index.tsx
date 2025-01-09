@@ -17,9 +17,9 @@ export default function Home() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                 >
-                    <div className="flex flex-col md:flex-row items-center gap-12 mb-16">
+                    <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 mb-8 md:mb-16">
                         <motion.div
-                            className="relative w-64 h-64 md:w-80 md:h-80 shrink-0"
+                            className="relative w-40 h-40 md:w-80 md:h-80 shrink-0"
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
@@ -37,9 +37,9 @@ export default function Home() {
                             <div className="absolute inset-0 ring-1 ring-[rgba(var(--foreground),0.1)] rounded-3xl" />
                         </motion.div>
 
-                        <div className="flex-1">
+                        <div className="flex-1 mt-4 md:mt-0">
                             <motion.h1
-                                className="text-4xl font-semibold mb-6 text-center md:text-left"
+                                className="text-3xl md:text-4xl font-semibold mb-4 md:mb-6 text-center md:text-left"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
@@ -185,7 +185,7 @@ export default function Home() {
                                         rel="noopener noreferrer"
                                         className="apple-button inline-flex items-center"
                                     >
-                                        View on App Store
+                                        View on GitHub
                                     </a>
                                 )}
                             </motion.div>

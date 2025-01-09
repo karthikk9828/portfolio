@@ -21,7 +21,7 @@ const Navigation = () => {
             transition={{ duration: 0.6 }}
         >
             <nav className="max-w-[980px] mx-auto px-4 sm:px-6 py-4">
-                <ul className="flex justify-center space-x-8">
+                <ul className="flex flex-wrap justify-center gap-4">
                     {['Skills', 'Experience', 'Projects', 'Certifications', 'Contact'].map((item) => (
                         <motion.li key={item}>
                             <button
@@ -30,7 +30,7 @@ const Navigation = () => {
                                         behavior: 'smooth'
                                     });
                                 }}
-                                className="text-[rgb(var(--foreground))] opacity-80 hover:opacity-100 transition-opacity px-2 py-1"
+                                className="text-[rgb(var(--foreground))] text-sm md:text-base opacity-80 hover:opacity-100 transition-opacity px-2 py-1"
                             >
                                 {item}
                             </button>
